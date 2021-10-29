@@ -1,0 +1,165 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    font-size: 30px;
+    overflow-x: hidden;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+}
+header{
+    height:800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.clearfix:after{
+    content: " ";
+
+    display: block;
+    height: 9px;
+    clear: both;
+}
+.row{
+    max-width: 1180px;
+    margin:0 auto;
+}
+.main-nav{
+    float: right;
+    margin-top: 30px;
+}
+.main-nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 40px;
+    padding-bottom: 50px;
+}
+.main-nav li a{
+    padding: 5px 2px;
+    color:white;
+    text-shadow:  #000 0px 0px 1px,   #000 0px 0px 1px,   #000 0px 0px 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    font-weight: 100;
+}
+.main-nav li a:hover{
+    color: red;
+    font-weight: 1000;
+}
+form{
+    padding-right:300px;
+    padding-left: 300px;
+    box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, rgb(31, 193, 27) 0px 0px 0px 6px, rgb(255, 217, 19) 0px 0px 0px 9px, rgb(255, 156, 85) 0px 0px 0px 12px, rgb(255, 85, 85) 0px 0px 0px 15px;
+    padding-bottom: 50px;
+    margin-top: 50px;
+    padding-top: 50px;
+
+}
+h3{
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+h1{
+    padding-left: 150px;
+    text-transform: uppercase;
+    padding-left: none;
+}
+h2{
+    font-size: 3rem;
+    color: #cc0099;
+    font-weight: 900;
+    padding-left: 5rem;
+    padding-top: 1rem;
+    text-shadow: 2px 2px black;
+}
+/*table Heading*/
+table{
+    padding-left: 100px;
+    margin-top:25px;
+    margin-left: -100px;
+    background-color: black;
+   
+}
+.message_h1{
+    padding-right: 10px;
+    padding-left: 15px;
+    font-size: 30px;
+    color: white;
+    border-top: 3px solid white;    
+}
+.id_h1{
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 30px;
+    color: white;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+}
+.name_h1{
+    padding-right: 10px;
+    padding-left: 15px;
+    font-size: 30px;
+    color: white;
+    border-top: 3px solid white;
+}
+.email_h1{
+    padding-left: 55px;
+    font-size: 30px;
+    color: white;
+    border-top: 3px solid white;
+    
+}
+.contact_h1{
+    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 20px;
+    font-size: 30px;
+    color: white;
+    border-top: 3px solid white;
+}
+
+/*/////Inner Table Heading/////*/
+th{
+    padding-left: 100px;
+    
+    border-bottom: 3px solid white;
+    
+    border-right: 3px solid white;
+}
+
+.massage_h{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-right: 3px solid white;
+    padding-right: 35px;
+    
+    padding-left: 35px;
+    
+}
+.id_h{
+    padding-left: 10px;
+    border-right: 3px solid white;
+    padding-right: 15px;
+    border-left: 3px solid white;
+}
+.name_h{
+    padding-left: 15px;
+    border-right: 3px solid white;
+    padding-right: 35px;
+}
+.email_h{
+    padding-left: 55px;
+    border-right: 3px solid white;
+    padding-right: 35px;
+}
+.contact_h{
+    padding-left: 55px;
+    border-right: 3px solid white;
+    padding-right: 35px;
+    
+}
